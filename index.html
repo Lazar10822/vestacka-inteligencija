@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Veštačka inteligencija: razvoj, neuronske mreže, primene i budućnost AI. Saznajte više o osnovama i karakteristikama AI.">
+    <meta name="keywords" content="veštačka inteligencija, AI, neuronske mreže, primene AI, overfitting, treniranje mreža">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Veštačka inteligencija</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="levo">
+            <p id="Naslovnica">Razvoj vestacke inteligencije</p>
+        </div>
+        <div class="desno">
+            <a href="index.html">Početna</a>
+            <a href="istorija.html">Istorija</a>
+            <a href="primene.html">Primene</a>
+            <a href="buducnost.html">Budućnost</a>
+        </div>
+    </nav>
+    <hr>
+    <div class="sadrzaj">
+        <h1>Veštačka inteligencija</h1>
+        <p>Veštačka inteligencija je podoblast računarstva koja razvija i proučava inteligentne mašine. Veštačka
+            inteligencija je inteligencija mašina ili softvera, za razliku od inteligencije živih bića, prvenstveno
+            ljudi. Cilj istraživanja veštačke inteligencije je razvijanje programa (softvera), koji će računarima
+            omogućiti da se ponašaju na način koji bi se mogao okarakterisati inteligentnim.</p>
+
+        <h2>Neuronska mreza</h2>
+        <br>
+        <div class="split">
+            <div id="p-n">
+                <p class="neuronska">Neuronska mreža je jedan oblik implementacije sistema veštačke inteligencije, koji
+                    predstavlja sistem koji se sastoji od određenog broja međusobno povezanih procesora ili čvorova, ili
+                    procesnih elemenata koje nazivamo veštačkim neuronima.</p>
+
+                <br>
+
+                <p class="neuronska">Telo neurona naziva se čvor ili jedinica. Svaki od neurona ima lokalnu memoriju u
+                    kojoj pamti podatke
+                    koje obrađuje. Podaci koji se obrađuju su lokalni podaci kao i oni koji se primaju preko veze.
+                    Podaci koji se ovim kanalima razmenjuju su obično numerički.</p>
+            </div>
+            <img src="Neural Network.png" alt="Slika neuronskih mreza" width="400">
+        </div>
+
+        <h3>Karakteristike neuronskih mreza</h3>
+        <br>
+
+        <p class="neuronska">
+            Neuronske mreže omogućavaju paralelnu obradu podataka pomoću jednostavnih procesorskih jedinica (neurona) koje su međusobno povezane. Broj veza između neurona i njihove težine određuju snagu mreže. One se koriste kada nisu poznata pravila za povezivanje ulaznih i izlaznih podataka.
+        </p>
+
+        <br>
+
+        <p class="neuronska">
+            Neuronske mreže se ne programiraju direktno, već se treniraju: težinski koeficijenti veza se prilagođavaju na osnovu primera, što omogućava mreži da „uči“ i generalizuje. Trening se sastoji od davanja ulaznih i izlaznih vrednosti, pri čemu mreža inicijalno pravi greške, a zatim prilagođava težine kako bi izlaz bio što bliži zadatoj vrednosti. Nakon obučavanja, mreža može da se koristi za predviđanja ili zadate zadatke.
+        </p>
+
+        <br>
+
+        <h4>Problem neuronskih mreza - overfitting (prenaucavanje)</h4>
+        <ul>
+            <li>Neuronske mreže uče iz primera tako što prilagođavaju težinske koeficijente.</li>
+            <br>
+            <li>Ako mreža nauči previše detalja iz trening skupa, može postati veoma precizna na tim primerima, ali loše generalizuje na nove, nepoznate podatke.</li>
+            <br>
+            <li>To znači da mreža daje tačne izlaze za podatke koje je već videla, ali pravi greške kada se suoči sa novim situacijama.</li>
+        </ul>
+
+        <br>
+
+        <h4>Zasto je problem</h4>
+        <ul>
+            <li>Smanjuje praktičnu upotrebljivost mreže u realnim zadacima.</li>
+            <br>
+            <li>Potrebni su dodatni postupci (npr. regularizacija, dropout, veći skup podataka) da bi se mreža naučila generalizaciji, a ne samo pamćenju trening primera.</li>
+        </ul>
+        <br>
+
+        <p>Za više informacija o AI, posetite <a href="https://en.wikipedia.org/wiki/Artificial_intelligence"
+                target="_blank">Wikipedia</a>.</p>
+    </div>
+
+</body>
+
+</html>
